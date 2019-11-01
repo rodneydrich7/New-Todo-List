@@ -69,16 +69,3 @@ gulp.task('default', callback => {
     )
 });
 
-// gulp.task('task1', gulp.series('sass', done => {
-//     done();
-// }));
-// gulp.task('task2', gulp.series('watch', done => {
-//     done();
-// }));
-// gulp.task('task3', gulp.series('run_project', done => {
-//     done();
-// }));
-//
-// gulp.task('main', gulp.series('task1', 'task2', 'task3', done => {
-//     done();
-// }));
